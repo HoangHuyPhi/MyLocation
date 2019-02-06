@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSCameraUsageDescription</key>
+	<string>Add Photos to your Location</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Add Photos to your Location</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>This app lets you keep track of interesting places. It needs access to the GPS
 coordinates for your location.</string>
@@ -29,6 +33,7 @@ coordinates for your location.</string>
 	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
+		<string>location-services</string>
 		<string>armv7</string>
 	</array>
 	<key>UIStatusBarTintParameters</key>
