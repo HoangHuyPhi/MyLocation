@@ -368,24 +368,29 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" tag="101" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Az7-mu-uSe">
-                                            <rect key="frame" x="10" y="35" width="300" height="21"/>
+                                            <rect key="frame" x="76" y="35" width="230" height="21"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" tag="100" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Na0-K0-XNn">
-                                            <rect key="frame" x="10" y="6" width="300" height="21"/>
+                                            <rect key="frame" x="76" y="6" width="230" height="21"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rey-rm-fNX">
+                                            <rect key="frame" x="16" y="2" width="52" height="52"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="addressLabel" destination="Az7-mu-uSe" id="cRk-3z-vPl"/>
                                     <outlet property="descriptionLabel" destination="Na0-K0-XNn" id="PzE-47-QRi"/>
+                                    <outlet property="photoImageView" destination="rey-rm-fNX" id="gpu-2D-SUm"/>
                                     <segue destination="UcI-9s-8PJ" kind="show" identifier="EditLocation" id="gN3-EU-zmH"/>
                                 </connections>
                             </tableViewCell>
@@ -523,6 +528,6 @@
         <image name="first" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="A1S-OO-6kg"/>
+        <segue reference="gN3-EU-zmH"/>
     </inferredMetricsTieBreakers>
 </document>
