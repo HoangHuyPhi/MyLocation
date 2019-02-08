@@ -12,6 +12,8 @@
 		3A3F1DE321DE065600BD095E /* LocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3F1DE221DE065600BD095E /* LocationsViewController.swift */; };
 		3A3F1DE521DE11C200BD095E /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3F1DE421DE11C200BD095E /* LocationCell.swift */; };
 		3A450538220D2E83009DC33D /* String+AddText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A450537220D2E83009DC33D /* String+AddText.swift */; };
+		3A45053A220D3A02009DC33D /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A450539220D3A02009DC33D /* MyTabBarController.swift */; };
+		3A45053C220D3A98009DC33D /* MyImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A45053B220D3A98009DC33D /* MyImagePickerController.swift */; };
 		3A48C89521C8DFC1001413A6 /* CategoryPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A48C89421C8DFC1001413A6 /* CategoryPickerViewController.swift */; };
 		3A48C89721C92396001413A6 /* HudView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A48C89621C92396001413A6 /* HudView.swift */; };
 		3A4A219A21CCEC6700ED63F1 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A4A219821CCEC6700ED63F1 /* DataModel.xcdatamodeld */; };
@@ -32,6 +34,8 @@
 		3A3F1DE221DE065600BD095E /* LocationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewController.swift; sourceTree = "<group>"; };
 		3A3F1DE421DE11C200BD095E /* LocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
 		3A450537220D2E83009DC33D /* String+AddText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+AddText.swift"; sourceTree = "<group>"; };
+		3A450539220D3A02009DC33D /* MyTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBarController.swift; sourceTree = "<group>"; };
+		3A45053B220D3A98009DC33D /* MyImagePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyImagePickerController.swift; sourceTree = "<group>"; };
 		3A48C89421C8DFC1001413A6 /* CategoryPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryPickerViewController.swift; sourceTree = "<group>"; };
 		3A48C89621C92396001413A6 /* HudView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HudView.swift; sourceTree = "<group>"; };
 		3A4A219921CCEC6700ED63F1 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
@@ -96,6 +100,8 @@
 				3A3F1DE421DE11C200BD095E /* LocationCell.swift */,
 				3A85C49E21EB200F00D3DF35 /* MapViewController.swift */,
 				3A450537220D2E83009DC33D /* String+AddText.swift */,
+				3A450539220D3A02009DC33D /* MyTabBarController.swift */,
+				3A45053B220D3A98009DC33D /* MyImagePickerController.swift */,
 			);
 			path = MyLocation;
 			sourceTree = "<group>";
@@ -174,6 +180,7 @@
 				3A3F1DE521DE11C200BD095E /* LocationCell.swift in Sources */,
 				3A392DEE21B7AB8F00B9BA8E /* LocationDetailsViewController.swift in Sources */,
 				3A4A219A21CCEC6700ED63F1 /* DataModel.xcdatamodeld in Sources */,
+				3A45053C220D3A98009DC33D /* MyImagePickerController.swift in Sources */,
 				3A48C89721C92396001413A6 /* HudView.swift in Sources */,
 				3A3F1DE321DE065600BD095E /* LocationsViewController.swift in Sources */,
 				3A2363BF220C319B00AB839C /* UIImage+Resize.swift in Sources */,
@@ -185,6 +192,7 @@
 				3A4A219D21CCEF2500ED63F1 /* Location+CoreDataClass.swift in Sources */,
 				3A48C89521C8DFC1001413A6 /* CategoryPickerViewController.swift in Sources */,
 				3AB737A121B2708400686CF6 /* CurrentLocationViewController.swift in Sources */,
+				3A45053A220D3A02009DC33D /* MyTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

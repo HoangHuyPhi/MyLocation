@@ -126,6 +126,7 @@ extension MapViewController: MKMapViewDelegate {
                 pinView.canShowCallout = true
                 pinView.animatesDrop = false
                 pinView.pinTintColor = UIColor(red: 0.32, green: 0.82, blue: 0.4, alpha: 1)
+                pinView.tintColor = UIColor(white: 0.0, alpha: 0.5)
             /*  You create a new UIButton object that looks like a detail disclosure button - i. You use the target-action pattern to hook up the
                 button’s “Touch Up Inside” event with a new method showLocationDetails(), and add the button to the annotation view’s accessory view. */
                 let rightButton = UIButton(type: .detailDisclosure)
