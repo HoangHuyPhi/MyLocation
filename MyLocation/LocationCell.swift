@@ -36,19 +36,13 @@ class LocationCell: UITableViewCell {
         }
         if let placemark = location.placemark {
             var text = ""
-            if let s = placemark.subThoroughfare {
-                text += s + " "
-            }
-            if let s = placemark.thoroughfare {
-                text += s + ", "
-            }
-            if let s = placemark.locality {
-                text += s
-                addressLabel.text = text
+            text.add(text: placemark.subThoroughfare)
+            text.add(text: placemark.thoroughfare, separatedBy: " ")
+            text.add(text: placemark.locality, separatedBy: ", ")
+            addressLabel.text = text
             } else {
                 addressLabel.text = String(format: "Lat: %.8f, Long: %.8f", location.lattitude, location.longtitude)
             }
-        }
         photoImageView.image = thumbnail(for: location)
     }
 }
