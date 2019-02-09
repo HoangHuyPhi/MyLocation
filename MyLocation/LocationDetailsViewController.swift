@@ -41,6 +41,7 @@ class LocationDetailsViewController: UITableViewController {
      @IBOutlet weak var dateLabel: UILabel!
      @IBOutlet weak var imageView: UIImageView!
      @IBOutlet weak var addPhotoLabel: UILabel!
+    @IBOutlet weak var containerView: UIView!
     var coordinate = CLLocationCoordinate2D(latitude: 0, longitude: 0)
     var placemark: CLPlacemark?
     var categoryName = "No Category"
@@ -159,6 +160,13 @@ class LocationDetailsViewController: UITableViewController {
         } else {
             return nil
         } }
+    override func tableView(_ tableView: UITableView,
+                            willDisplay cell: UITableViewCell,
+                            forRowAt indexPath: IndexPath) {
+        let selection = UIView(frame: CGRect.zero)
+        selection.backgroundColor = UIColor(white: 1.0, alpha: 0.2)
+        cell.selectedBackgroundView = selection
+    }
     // Make the first row of the first section to be able to tap
     override func tableView(_ tableView: UITableView,
                             didSelectRowAt indexPath: IndexPath) {

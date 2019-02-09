@@ -27,8 +27,6 @@
 coordinates for your location.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>Add Photos to your Location</string>
-	<key>UILaunchStoryboardName</key>
-	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>
