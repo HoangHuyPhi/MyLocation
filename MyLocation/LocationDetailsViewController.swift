@@ -120,7 +120,7 @@ class LocationDetailsViewController: UITableViewController {
         gestureRecognizer.cancelsTouchesInView = false
         tableView.addGestureRecognizer(gestureRecognizer)
         // load image from edit scene
-        
+        self.tableView.isUserInteractionEnabled = true
     }
     // MARK:- Private Methods
     func string(from placemark: CLPlacemark) -> String {
