@@ -2,8 +2,6 @@
 -I build this application for study purpose.<br>
 -The app will show and save users location data with the desciption, picture, categories, etc.<br>
 -Technologies used: Swift, Xcode, CoreData, Apple frameworks: UITableView, CoreLocation, UIKit, Mapkit etc.
-# REFERENCE
-Special thanks to: Raywanderlich iOS appretince book.
 # Screenshot
 <p align = "center">
 <font size="20" color="red">
